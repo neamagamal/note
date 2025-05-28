@@ -5,7 +5,7 @@ const NoteDb = require('./Schemas/node');
 class Database {
     constructor() {
         // this.Url = 'mongodb://localhost:27017/notesDB';
-        this.Url =process.env.MONGODB_URL|| 'mongodb+srv://neamagamal27%40admin:Neama@cluster0.iuunyzr.mongodb.net/notaty?retryWrites=true&w=majority&appName=Cluster0';
+        this.Url =process.env.MONGODB_URL|| 'MONGODB_URL=mongodb+srv://neamagamal27:Neama@cluster0.iuunyzr.mongodb.net/notaty?retryWrites=true&w=majority&appName=Cluster0';
 
     }
     connect() {
